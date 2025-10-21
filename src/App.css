@@ -1,0 +1,19 @@
+.mainsite {
+  height: 100vh;
+  width: 100vw;
+}
+.mainsite .projects {
+  display: flex;
+  width: 180px;
+  height: 460px;
+  background-color: lightgrey;
+  color: white;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.mainsite .projects a {
+  margin: 30px 0 0 30px;
+  border: none;
+  list-style: none;
+}
