@@ -67,27 +67,47 @@
   flex-direction: column;
 }
 .mainsite .projects ul li a {
-  display: inline;
+  display: inline-block;
   font-size: 68px;
   text-decoration: none;
   color: white;
   background-color: transparent;
   animation: animationshadow 3s linear infinite normal;
   cursor: default;
+  transition: transform 0.3s ease;
 }
 .mainsite .projects ul li a:hover {
   text-shadow: 0 0 12px white, 0 0 24px white, 0 0 12px white;
   color: #ffd6e7;
   animation: none;
   animation-play-state: paused;
+  transform: scale(1.1);
 }
 .mainsite .projects ul li a::selection {
   background-color: darkslategrey;
 }
 .mainsite .projects ul li a .gthan {
-  animation: none;
   text-shadow: none;
   background-color: transparent;
+  animation: mover 2s linear infinite alternate;
+  position: relative;
+}
+@keyframes mover {
+  0% {
+    left: 0px;
+  }
+  25% {
+    left: -4px;
+  }
+  50% {
+    left: -8px;
+  }
+  75% {
+    left: -4px;
+  }
+  100% {
+    left: 0px;
+  }
 }
 @keyframes animationshadow {
   0% {
