@@ -2,7 +2,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #222;
+  background-color: rgb(41, 0, 0);
+  font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.mainsite h1 {
+  font-family: "Parisienne", cursive;
+  font-size: 36px;
+  margin-top: 120px;
+  margin-left: 80px;
+  color: white;
+  border-left: #ffd6e7 4px solid;
+}
+.mainsite h1::selection {
+  background-color: darkslategrey;
 }
 .mainsite .projects hr {
   border: none;
@@ -15,6 +29,7 @@
 .mainsite .projects hr:hover {
   border-top: 3px solid rgb(109, 31, 36);
 }
+/* negro #222, gris #fff3, blanco lightgrey */
 /* Poner las fonts */
 /* Animaciones, transiciones */
 /* Tamanos de letra */
@@ -30,45 +45,54 @@
 .mainsite .projects {
   display: flex;
   width: 480px;
-  height: 520px;
-  margin-left: 20px;
-  background-color: lightgrey;
+  height: 580px;
+  margin-left: 30px;
+  margin-top: 30px;
+  background-color: #222;
   color: white;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
 }
 .mainsite .projects a {
+  display: inline-block;
   font-size: 68px;
-  margin: 30px 0 10px 36px;
+  width: 384px;
+  margin: 33px 0 10px 36px;
   border: none;
   list-style: none;
   text-decoration: none;
-  color: darkslateblue;
+  color: white;
   background-color: transparent;
-  text-shadow: 0px 1px 3px black;
-  animation: animationshadow 3s linear infinite alternate;
+  animation: animationshadow 3s linear infinite normal;
+  border-bottom: 6px solid #fff3;
+  cursor: default;
 }
+
 .mainsite .projects a:hover {
-  text-shadow: 0px 1px 2px #38424c;
-  color: slateblue;
+  text-shadow: 0 0 12px white, 0 0 24px white, 0 0 12px white;
+  color: #ffd6e7;
   animation: none;
+  animation-play-state: paused;
+}
+.mainsite .projects a::selection {
+  background-color: darkslategrey;
 }
 
 @keyframes animationshadow {
   0% {
-    text-shadow: 0px 1px 3px black;
+    text-shadow: -1px 1px 10px #ffd6e7, -1px 1px 10px #ffd6e7;
   }
   25% {
-    text-shadow: -1px 2px 3px black;
+    text-shadow: -1px 1px 26px #ffd6e7, -1px 1px 26px #ffd6e7;
   }
   50% {
-    text-shadow: -1px 2px 3px black;
+    text-shadow: -1px 1px 36px #ffd6e7, -1px 1px 36px #ffd6e7;
   }
   75% {
-    text-shadow: -1px 1px 3px black;
+    text-shadow: -1px 1px 26px #ffd6e7, -1px 1px 26px #ffd6e7;
   }
   100% {
-    text-shadow: 0px 1px 3px black;
+    text-shadow: -1px 1px 10px #ffd6e7, -1px 1px 10px #ffd6e7;
   }
 }
