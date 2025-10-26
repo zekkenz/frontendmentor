@@ -10,8 +10,8 @@
 .mainsite h1 {
   font-family: "Parisienne", cursive;
   font-size: 36px;
-  margin-top: 60px;
-  margin-left: 80px;
+  margin-top: 42px;
+  margin-left: 78px;
   color: white;
   border-left: #ffd6e7 4px solid;
   white-space: nowrap;
@@ -56,15 +56,16 @@
 }
 .mainsite .projects {
   display: flex;
-  width: 680px;
-  height: 580px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 620px;
+  height: 740px;
   margin-left: 30px;
   margin-top: 30px;
   background-color: #222;
   color: white;
   align-items: flex-start;
   justify-content: flex-start;
-  flex-direction: column;
   border-radius: 20px;
 }
 .mainsite .projects ul li a {
