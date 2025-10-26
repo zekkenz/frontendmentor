@@ -8,7 +8,10 @@
 
 1. **Bento Grid**
 
-...
+2. **Tip Calculator**
+
+3. _QR Code (ignore, first test)_
+   ...
 
 ---
 
