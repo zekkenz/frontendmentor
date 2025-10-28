@@ -1,0 +1,12 @@
+.namecontainer {
+  display: inline-block;
+}
+.namecontainer .name {
+  font-size: 38px;
+  color: pink;
+  letter-spacing: 12px;
+  text-decoration: underline;
+}
+.namecontainer .name::selection {
+  background-color: darkslategrey;
+}
