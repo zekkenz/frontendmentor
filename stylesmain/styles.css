@@ -44,7 +44,7 @@
   height: 100vh;
   width: 100vw;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
 }
@@ -60,22 +60,16 @@
   margin: 33px 0px 10px 36px;
 }
 .mainsite .projects {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 620px;
-  height: 600px;
-  margin-left: 30px;
-  margin-top: 30px;
+  width: 440px;
+  height: 480px;
+  margin: 30px auto 0;
   background-image: url("darkredlow.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: white;
-  align-items: flex-start;
-  justify-content: flex-start;
   border-radius: 10px;
-  padding: 4px;
+  padding: 2px;
   overflow: hidden;
 }
 

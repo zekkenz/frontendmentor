@@ -1,12 +1,48 @@
 .namecontainer {
   display: inline-block;
+  margin: 20px 0 0 0;
+  padding: 0;
 }
 .namecontainer .name {
   font-size: 38px;
   color: pink;
-  letter-spacing: 12px;
+  letter-spacing: 8px;
   text-decoration: underline;
+  border-right: 0.15em solid orange;
+  animation: blink-caret 0.75s step-end infinite;
 }
+
 .namecontainer .name::selection {
   background-color: darkslategrey;
+}
+
+/* Keyframes for the typing animation */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Keyframes for the deleting animation (reversing the width) */
+@keyframes deleting {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}
+
+/* Keyframes for the blinking cursor */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
 }
