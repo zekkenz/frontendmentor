@@ -1,0 +1,11 @@
+/* ./stylesmain/name.css */
+.namecontainer {
+  display: inline-block;
+  margin: 20px 0 0 0;
+}
+
+.name {
+  font-size: 38px;
+  color: pink;
+  letter-spacing: 8px;
+}
