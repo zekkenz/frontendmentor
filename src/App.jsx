@@ -19,8 +19,8 @@ function App() {
               </li>
               <hr />
               <li>
-                <a href="./projects/qr-code/qrcode.html">
-                  <span class="gthan">&gt;</span> QR code
+                <a href="./projects/testimonials/testimonials.html">
+                  <span class="gthan">&gt;</span> Testimonials design
                 </a>
               </li>
               <hr />
@@ -30,9 +30,10 @@ function App() {
                 </a>
               </li>
               <hr />
+
               <li>
-                <a href="#">
-                  <span class="gthan">&gt;</span> CREANDO...
+                <a href="./projects/qr-code/qrcode.html">
+                  <span class="gthan">&gt;</span> QR code
                 </a>
               </li>
               <hr />
