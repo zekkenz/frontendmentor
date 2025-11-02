@@ -1,11 +1,22 @@
 /* ./stylesmain/name.css */
 .namecontainer {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   margin: 20px 0 0 0;
 }
-
 .name {
+  white-space: nowrap;
+  font-size: 38px;
+  letter-spacing: 8px;
+}
+.name,
+.name-animated {
   font-size: 38px;
   color: pink;
   letter-spacing: 8px;
+}
+.name-animated {
+  display: inline-block;
+  width: 380px;
+  white-space: nowrap;
 }

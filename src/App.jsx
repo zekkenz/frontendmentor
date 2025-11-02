@@ -5,59 +5,92 @@ import TypeIt from "typeit-react";
 function App() {
   return (
     <>
-      <div class="mainsite">
-        <div class="namecontainer">
-          <TypeIt class="name">Pxndxra Designs</TypeIt>
+      <div className="mainsite">
+        <div className="namecontainer">
+          <TypeIt
+            getBeforeInit={(instance) => {
+              const parts = [" Designs", " Apps", " Webpages", " Projects"];
+
+              instance
+                .type("Pxndora") // escribe fijo
+                .pause(500) // pausa breve
+                .type(parts[0]); // escribe la primera parte variable
+
+              // ahora ciclo para borrar y escribir cada parte variable
+              for (let i = 1; i < parts.length; i++) {
+                instance
+                  .pause(1500)
+                  .delete(parts[i - 1].length) // borra solo la parte variable
+                  .type(parts[i]); // escribe siguiente parte variable
+              }
+
+              instance
+                .pause(1500)
+                .delete(parts[parts.length - 1].length) // borrar la última variable
+                .go(); // reiniciar loop
+
+              return instance;
+            }}
+            options={{
+              speed: 120,
+              deleteSpeed: 120,
+              loop: true,
+              breakLines: false,
+              cursor: true,
+            }}
+            as="span"
+            className="name-animated"
+          />
         </div>
-        <div class="projects">
-          <div class="projects-scroll">
+        <div className="projects">
+          <div className="projects-scroll">
             <ul>
               <li>
                 <a href="./projects/bento-grid/bento.html">
-                  <span class="gthan">&gt;</span> Bento-Grid
+                  <span className="gthan">&gt;</span> Bento-Grid
                 </a>
               </li>
               <hr />
               <li>
                 <a href="./projects/testimonials/testimonials.html">
-                  <span class="gthan">&gt;</span> Testimonials design
+                  <span className="gthan">&gt;</span> Testimonials design
                 </a>
               </li>
               <hr />
               <li>
                 <a href="./projects/tip-calculator/tip-calculator.html">
-                  <span class="gthan">&gt;</span> Tip Calculator
+                  <span className="gthan">&gt;</span> Tip Calculator
                 </a>
               </li>
               <hr />
 
               <li>
                 <a href="./projects/qr-code/qrcode.html">
-                  <span class="gthan">&gt;</span> QR code
+                  <span className="gthan">&gt;</span> QR code
                 </a>
               </li>
               <hr />
               <li>
                 <a href="#">
-                  <span class="gthan">&gt;</span> creando 2...
+                  <span className="gthan">&gt;</span> creando 2...
                 </a>
               </li>
               <hr />
               <li>
                 <a href="#">
-                  <span class="gthan">&gt;</span> creando 3...
+                  <span className="gthan">&gt;</span> creando 3...
                 </a>
               </li>
               <hr />
               <li>
                 <a href="#">
-                  <span class="gthan">&gt;</span> creando 4...
+                  <span className="gthan">&gt;</span> creando 4...
                 </a>
               </li>
               <hr />
               <li>
                 <a href="#">
-                  <span class="gthan">&gt;</span> creando 5...
+                  <span className="gthan">&gt;</span> creando 5...
                 </a>
               </li>
               <hr />
