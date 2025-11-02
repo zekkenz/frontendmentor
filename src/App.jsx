@@ -9,32 +9,66 @@ function App() {
         <div className="namecontainer">
           <TypeIt
             getBeforeInit={(instance) => {
-              const parts = [" Designs", " Apps", " Webpages", " Projects"];
+              const parts = [
+                " Designs",
+                " Apps",
+                " Webpages",
+                " Projects",
+                " Designs",
+                " Apps",
+                " Webpages",
+                " Projects",
+                " Designs",
+                " Apps",
+                " Webpages",
+                " Projects",
+                " Designs",
+                " Apps",
+                " Webpages",
+                " Projects",
+                " Designs",
+                " Apps",
+                " Webpages",
+                " Projects",
+                " Designs",
+                " Apps",
+                " Webpages",
+                " Projects",
+                " Designs",
+                " Apps",
+                " Webpages",
+                " Projects",
+                " Designs",
+                " Apps",
+                " Webpages",
+                " Projects",
+                " Designs",
+                " Apps",
+                " Webpages",
+                " Projects",
+              ];
 
-              instance
-                .type("Pxndora") // escribe fijo
-                .pause(500) // pausa breve
-                .type(parts[0]); // escribe la primera parte variable
+              instance.type("Pxndora");
+              instance.pause(500).type(parts[0]);
 
-              // ahora ciclo para borrar y escribir cada parte variable
               for (let i = 1; i < parts.length; i++) {
                 instance
                   .pause(1500)
-                  .delete(parts[i - 1].length) // borra solo la parte variable
-                  .type(parts[i]); // escribe siguiente parte variable
+                  .delete(parts[i - 1].length)
+                  .type(parts[i]);
               }
-
               instance
                 .pause(1500)
-                .delete(parts[parts.length - 1].length) // borrar la última variable
-                .go(); // reiniciar loop
+                .delete(parts[parts.length - 1].length)
+                .type(parts[0])
+                .pause(1500)
+                .go();
 
               return instance;
             }}
             options={{
               speed: 120,
               deleteSpeed: 120,
-              loop: true,
               breakLines: false,
               cursor: true,
             }}
