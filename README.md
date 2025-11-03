@@ -11,6 +11,8 @@
 2. **Tip Calculator**
 
 3. _QR Code (ignore, first test)_
+
+4. **Testimonials Design**
    ...
 
 ---
