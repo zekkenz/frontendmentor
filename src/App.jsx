@@ -80,6 +80,18 @@ function App() {
           <div className="projects-scroll">
             <ul>
               <li>
+                <a href="./projects/todo-app/todo-app.html">
+                  <span className="gthan">&gt;</span> Todo App
+                </a>
+              </li>
+              <hr />
+              <li>
+                <a href="./projects/tip-calculator/tip-calculator.html">
+                  <span className="gthan">&gt;</span> Tip Calculator
+                </a>
+              </li>
+              <hr />
+              <li>
                 <a href="./projects/bento-grid/bento.html">
                   <span className="gthan">&gt;</span> Bento-Grid
                 </a>
@@ -92,21 +104,8 @@ function App() {
               </li>
               <hr />
               <li>
-                <a href="./projects/tip-calculator/tip-calculator.html">
-                  <span className="gthan">&gt;</span> Tip Calculator
-                </a>
-              </li>
-              <hr />
-
-              <li>
                 <a href="./projects/qr-code/qrcode.html">
                   <span className="gthan">&gt;</span> QR code
-                </a>
-              </li>
-              <hr />
-              <li>
-                <a href="#">
-                  <span className="gthan">&gt;</span> creando 2...
                 </a>
               </li>
               <hr />
