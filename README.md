@@ -14,7 +14,7 @@
 
 4. **Testimonials Design**
 
-5. **Todo App** (WORKING...)
+5. **Todo App**
 
 ---
 
