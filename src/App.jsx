@@ -48,7 +48,7 @@ function App() {
                 " Projects",
               ];
 
-              instance.type("Pxndora");
+              instance.type("Pxndxra");
               instance.pause(500).type(parts[0]);
 
               for (let i = 1; i < parts.length; i++) {
@@ -78,13 +78,13 @@ function App() {
         </div>
         <div className="projects">
           <div className="projects-scroll">
-            <li>
-              <a href="./projects/calc/calc.html">
-                <span className="gthan">&gt;</span> Calculator *WIP*
-              </a>
-            </li>
-            <hr />
             <ul>
+              <li>
+                <a href="./projects/calc/calc.html">
+                  <span className="gthan">&gt;</span> Calculator *WIP*
+                </a>
+              </li>
+              <hr />
               <li>
                 <a href="./projects/todo-app/todo-app.html">
                   <span className="gthan">&gt;</span> Todo App
