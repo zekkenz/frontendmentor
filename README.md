@@ -10,13 +10,13 @@
 
 2. **Tip Calculator**
 
-3. _QR Code (ignore, first test)_
+3. **Testimonials Design**
 
-4. **Testimonials Design**
+4. **Todo App**
 
-5. **Todo App**
+5. **Calculator**
 
-6. **Calculator** (WORKING...)
+6. **Weather App** (WORKING...)
 
 ---
 

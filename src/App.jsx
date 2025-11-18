@@ -81,43 +81,49 @@ function App() {
             <ul>
               <li>
                 <a href="./projects/calc/calc.html">
-                  <span className="gthan">&gt;</span> Calculator *WIP*
+                  <span className="gthan">&gt;</span> Calculator
                 </a>
               </li>
               <hr />
               <li>
                 <a href="./projects/todo-app/todo-app.html">
-                  <span className="gthan">&gt;</span> Todo App
+                  <span className="gthan">&gt;</span> Todo-App
                 </a>
               </li>
               <hr />
               <li>
                 <a href="./projects/tip-calculator/tip-calculator.html">
-                  <span className="gthan">&gt;</span> Tip Calculator
+                  <span className="gthan">&gt;</span> Tip-Calculator
                 </a>
               </li>
               <hr />
               <li>
                 <a href="./projects/bento-grid/bento.html">
-                  <span className="gthan">&gt;</span> Bento-Grid
+                  <span className="gthan">&gt;</span> Bento-Grid Design
                 </a>
               </li>
               <hr />
               <li>
                 <a href="./projects/testimonials/testimonials.html">
-                  <span className="gthan">&gt;</span> Testimonials design
+                  <span className="gthan">&gt;</span> Testimonials Design
                 </a>
               </li>
               <hr />
               <li>
                 <a href="#">
-                  <span className="gthan">&gt;</span> creando 4...
+                  <span className="gthan">&gt;</span> TBA...
                 </a>
               </li>
               <hr />
               <li>
                 <a href="#">
-                  <span className="gthan">&gt;</span> creando 5...
+                  <span className="gthan">&gt;</span> TBA...
+                </a>
+              </li>
+              <hr />
+              <li>
+                <a href="#">
+                  <span className="gthan">&gt;</span> TBA...
                 </a>
               </li>
               <hr />
