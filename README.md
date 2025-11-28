@@ -16,7 +16,7 @@
 
 5. **Calculator**
 
-6. **Weather App** (WORKING... 60% Design ready)
+6. **Weather App** (Ready)
 
 ---
 
