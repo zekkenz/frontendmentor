@@ -16,7 +16,7 @@
 
 5. **Calculator**
 
-6. **Weather App** (Ready 100, terminando Mobile Design)
+6. **Weather App** (Ready 100%, Mobile Design 50%)
 
 7. **Portfolio** (WORKING...)
 
