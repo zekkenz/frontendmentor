@@ -18,7 +18,7 @@
 
 6. **Weather App** (Ready 100%, Mobile Design 50%)
 
-7. **Portfolio** (WORKING...)
+7. **Portfolio** (WORKING... 10%)
 
 ---
 
