@@ -80,6 +80,12 @@ function App() {
           <div className="projects-scroll">
             <ul>
               <li>
+                <a href="./projects/weather-app/weather-app.html">
+                  <span className="gthan">&gt;</span> Weather App
+                </a>
+              </li>
+              <hr />
+              <li>
                 <a href="./projects/calc/calc.html">
                   <span className="gthan">&gt;</span> Calculator
                 </a>
@@ -106,12 +112,6 @@ function App() {
               <li>
                 <a href="./projects/testimonials/testimonials.html">
                   <span className="gthan">&gt;</span> Testimonials Design
-                </a>
-              </li>
-              <hr />
-              <li>
-                <a href="#">
-                  <span className="gthan">&gt;</span> TBA...
                 </a>
               </li>
               <hr />
