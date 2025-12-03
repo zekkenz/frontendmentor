@@ -18,7 +18,7 @@
 
 6. **Weather App**
 
-7. **Portfolio** (WORKING... 10%)
+7. **Portfolio** (WORKING... 15%)
 
 ---
 
