@@ -18,7 +18,7 @@
 
 6. **Weather App**
 
-7. **Portfolio** (WORKING... 20%)
+7. **Portfolio** (WORKING... 20%, Card Added)
 
 ---
 
