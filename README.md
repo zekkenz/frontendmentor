@@ -18,7 +18,7 @@
 
 6. **Weather App**
 
-7. **Portfolio** (WORKING... 20%, Card Added)
+7. **Portfolio** (CURRENTLY WORKING IN MY PORTFOLIO... 55% READY, Added 5 Sections, handling ANIMATIONS...)
 
 ---
 

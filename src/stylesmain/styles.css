@@ -120,7 +120,10 @@
   transition: transform 0.3s ease;
 }
 .mainsite .projects .projects-scroll ul li a:hover {
-  text-shadow: 0 0 12px white, 0 0 24px white, 0 0 12px white;
+  text-shadow:
+    0 0 12px white,
+    0 0 24px white,
+    0 0 12px white;
   color: #ffd6e7;
   animation: none;
   animation-play-state: paused;
@@ -160,23 +163,33 @@
 }
 @keyframes animationshadow {
   0% {
-    text-shadow: -1px 1px 10px #ffd6e7, -1px 1px 10px #ffd6e7;
+    text-shadow:
+      -1px 1px 10px #ffd6e7,
+      -1px 1px 10px #ffd6e7;
   }
   25% {
-    text-shadow: -1px 1px 26px #ffd6e7, -1px 1px 26px #ffd6e7;
+    text-shadow:
+      -1px 1px 26px #ffd6e7,
+      -1px 1px 26px #ffd6e7;
   }
   50% {
-    text-shadow: -1px 1px 36px #ffd6e7, -1px 1px 36px #ffd6e7;
+    text-shadow:
+      -1px 1px 36px #ffd6e7,
+      -1px 1px 36px #ffd6e7;
   }
   75% {
-    text-shadow: -1px 1px 26px #ffd6e7, -1px 1px 26px #ffd6e7;
+    text-shadow:
+      -1px 1px 26px #ffd6e7,
+      -1px 1px 26px #ffd6e7;
   }
   100% {
-    text-shadow: -1px 1px 10px #ffd6e7, -1px 1px 10px #ffd6e7;
+    text-shadow:
+      -1px 1px 10px #ffd6e7,
+      -1px 1px 10px #ffd6e7;
   }
 }
-@media screen and (max-width: 680px) {
+/* @media screen and (max-width: 680px) {
   .mainsite {
-    /* / */
+     / 
   }
-}
+} */
