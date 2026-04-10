@@ -38,7 +38,7 @@
 }
 .delete-icon {
   width: auto;
-  height: 17px;
+  min-height: 17px;
   cursor: pointer;
   align-self: flex-end;
   padding-bottom: 14px;
