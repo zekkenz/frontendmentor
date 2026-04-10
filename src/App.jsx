@@ -80,8 +80,14 @@ function App() {
           <div className="projects-scroll">
             <ul>
               <li>
-                <a href="./projects/weather-app/weather-app.html">
-                  <span className="gthan">&gt;</span> Weather App
+                <a href="./projects/e-commerce-buy/e-commerce-buy.html">
+                  <span className="gthan">&gt;</span> e-commerce buy page
+                </a>
+              </li>
+              <hr />
+              <li>
+                <a href="./projects/todo-app/todo-app.html">
+                  <span className="gthan">&gt;</span> Todo-App
                 </a>
               </li>
               <hr />
@@ -92,8 +98,8 @@ function App() {
               </li>
               <hr />
               <li>
-                <a href="./projects/todo-app/todo-app.html">
-                  <span className="gthan">&gt;</span> Todo-App
+                <a href="./projects/weather-app/weather-app.html">
+                  <span className="gthan">&gt;</span> Weather App
                 </a>
               </li>
               <hr />

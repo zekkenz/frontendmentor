@@ -1,0 +1,14 @@
+/* Cartfallback.css */
+.central-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+.central-container p {
+  color: hsl(219, 9%, 45%);
+  margin: 0;
+  font-weight: 700;
+}
