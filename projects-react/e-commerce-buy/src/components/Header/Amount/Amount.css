@@ -1,0 +1,15 @@
+/* Amount.css */
+.amount-container {
+  position: absolute;
+  top: -5px;
+  right: -6px;
+  width: 19px;
+  height: 13px;
+  background-color: hsl(26, 100%, 55%);
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
