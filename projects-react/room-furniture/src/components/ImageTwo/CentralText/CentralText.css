@@ -1,0 +1,76 @@
+/* CentralText.css */
+.central-container {
+  display: flex;
+  padding: 70px 72px;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.central-shop {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 23px;
+  cursor: pointer;
+}
+
+.central-container h2 {
+  font-weight: 700;
+  font-size: 48px;
+  padding-bottom: 23px;
+  width: 100%;
+}
+
+.central-container p {
+  width: 90.2%;
+  line-height: 22px;
+  color: hsl(0, 0%, 63%);
+}
+
+.central-container .central-shop h4 {
+  font-weight: 700;
+  letter-spacing: 12px;
+}
+
+.central-shop img {
+  width: 40px;
+  height: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .central-container {
+    padding: 10px 10px 70px 35px;
+  }
+  .central-container h2 {
+    font-size: 42px;
+  }
+  .central-shop {
+    margin: 0;
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .central-container {
+    padding: 0px 40px 30px 35px;
+    margin-top: 0px;
+  }
+
+  .central-container h2 {
+    font-size: 36px;
+    line-height: 1.1;
+    padding-bottom: 15px;
+    letter-spacing: -1px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+  }
+  .central-shop {
+    margin: 0;
+    padding-top: 40px;
+  }
+  .central-container p {
+    font-size: 15px;
+    line-height: 22px;
+    width: 100%;
+  }
+}
