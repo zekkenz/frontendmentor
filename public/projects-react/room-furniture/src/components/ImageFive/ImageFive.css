@@ -1,6 +1,6 @@
 /* ImageFive.css */
 .part5-container {
-  background-image: url("/image-about-light.jpg");
+  background-image: url("./image-about-light.jpg");
   width: 100%;
   min-height: 268px;
   background-size: cover;

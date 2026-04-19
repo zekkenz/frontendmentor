@@ -17,9 +17,9 @@ function ImageOne({ currentImg }) {
           className="hamburger-container"
           onClick={() => setIsMenuOpen(true)}
         >
-          <img src="/icon-hamburger.svg" alt="clickable menu icon" />
+          <img src="./icon-hamburger.svg" alt="clickable menu icon" />
         </div>
-        <img src="/logo.svg" alt="logo" className="logo-icon" />
+        <img src="./logo.svg" alt="logo" className="logo-icon" />
         <ul>
           <li>home</li>
           <li>shop</li>
@@ -30,7 +30,7 @@ function ImageOne({ currentImg }) {
 
       <div className={`mobile-menu ${isMenuOpen ? "open" : ""}`}>
         <img
-          src="/icon-close.svg"
+          src="./icon-close.svg"
           alt="close menu"
           className="close-btn"
           onClick={() => setIsMenuOpen(false)}
