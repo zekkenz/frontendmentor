@@ -20,7 +20,9 @@
 
 7. **e-commerce buy page**
 
-8. **Portfolio** (CURRENTLY WORKING IN MY PORTFOLIO... 69% READY, Added 5 Sections, handling ANIMATIONS...)
+8. **room furniture design**
+
+9. **Portfolio** (CURRENTLY WORKING IN MY PORTFOLIO... 70% READY, Added 5 Sections, handling ANIMATIONS...)
 
 ---
 

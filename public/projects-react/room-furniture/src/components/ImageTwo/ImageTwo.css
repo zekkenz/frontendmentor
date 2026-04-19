@@ -1,0 +1,14 @@
+/* ImageTwo.css */
+.part2-container {
+  background-color: white;
+  min-height: 534px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+@media screen and (max-width: 600px) {
+  .part2-container {
+    min-height: 410px;
+  }
+}

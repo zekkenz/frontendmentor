@@ -80,8 +80,8 @@ function App() {
           <div className="projects-scroll">
             <ul>
               <li>
-                <a href="./projects/e-commerce-buy/e-commerce-buy.html">
-                  <span className="gthan">&gt;</span> e-commerce buy page
+                <a href="./projects/room-furniture/room-furniture.html">
+                  <span className="gthan">&gt;</span> room furniture
                 </a>
               </li>
               <hr />
@@ -98,14 +98,20 @@ function App() {
               </li>
               <hr />
               <li>
-                <a href="./projects/weather-app/weather-app.html">
-                  <span className="gthan">&gt;</span> Weather App
+                <a href="./projects/e-commerce-buy/e-commerce-buy.html">
+                  <span className="gthan">&gt;</span> e-commerce buy page
                 </a>
               </li>
               <hr />
               <li>
                 <a href="./projects/tip-calculator/tip-calculator.html">
                   <span className="gthan">&gt;</span> Tip-Calculator
+                </a>
+              </li>
+              <hr />
+              <li>
+                <a href="./projects/weather-app/weather-app.html">
+                  <span className="gthan">&gt;</span> Weather App
                 </a>
               </li>
               <hr />
@@ -118,6 +124,18 @@ function App() {
               <li>
                 <a href="./projects/testimonials/testimonials.html">
                   <span className="gthan">&gt;</span> Testimonials Design
+                </a>
+              </li>
+              <hr />
+              <li>
+                <a href="#">
+                  <span className="gthan">&gt;</span> TBA...
+                </a>
+              </li>
+              <hr />
+              <li>
+                <a href="#">
+                  <span className="gthan">&gt;</span> TBA...
                 </a>
               </li>
               <hr />

@@ -1,0 +1,47 @@
+/* Arrows.css */
+.arrows-container {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+}
+
+.arrow-btn {
+  background: none;
+  border: none;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.arrow-btn:hover {
+  background-color: #444;
+}
+
+@media screen and (max-width: 1200px) {
+  .arrow-btn {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .arrows-container {
+    bottom: auto;
+    top: -60px;
+    left: auto;
+    right: 0;
+  }
+  .arrow-btn {
+    width: 60px;
+    height: 60px;
+  }
+  .arrow-btn img {
+    width: auto;
+    height: 20px;
+  }
+}

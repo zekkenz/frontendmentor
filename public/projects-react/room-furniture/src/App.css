@@ -1,0 +1,32 @@
+/* App.css */
+.main-roomgrid {
+  display: grid;
+  grid-template-columns: 420fr 420fr 160fr 440fr;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.part1-container {
+  grid-column: 1 / 3;
+}
+.part2-container {
+  grid-column: 3 / 5;
+  position: relative;
+}
+.part3-container {
+  grid-column: 1 / 2;
+}
+.part4-container {
+  grid-column: 2 / 4;
+}
+.part5-container {
+  grid-column: 4 / 5;
+}
+
+@media (max-width: 600px) {
+  .main-roomgrid {
+    display: flex;
+    flex-direction: column;
+  }
+}

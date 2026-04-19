@@ -1,0 +1,8 @@
+/* ImageThree.css */
+.part3-container {
+  background-image: url("/image-about-dark.jpg");
+  width: 100%;
+  min-height: 268px;
+  background-size: cover;
+  background-position: center;
+}
