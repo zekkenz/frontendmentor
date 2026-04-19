@@ -19,7 +19,7 @@ function ImageOne({ currentImg }) {
         >
           <img src="/icon-hamburger.svg" alt="clickable menu icon" />
         </div>
-        <img src="logo.svg" alt="logo" className="logo-icon" />
+        <img src="/logo.svg" alt="logo" className="logo-icon" />
         <ul>
           <li>home</li>
           <li>shop</li>
