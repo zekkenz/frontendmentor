@@ -8,7 +8,7 @@ function CentralText({ title, text }) {
       <p>{text}</p>
       <div className="central-shop">
         <h4>SHOP NOW</h4>
-        <img src="icon-arrow.svg" alt="arrow icon" />
+        <img src="/icon-arrow.svg" alt="arrow icon" />
       </div>
     </div>
   );
