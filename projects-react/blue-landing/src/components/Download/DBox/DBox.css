@@ -1,0 +1,51 @@
+/* DBox.css */
+.container-dbox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 282px;
+  height: 380px;
+  background-color: white;
+  border-radius: 14px;
+  padding-top: 52px;
+  box-shadow: 0 10px 20px -5px rgba(73, 93, 207, 0.15);
+}
+
+.container-dbox h4 {
+  font-size: 20px;
+  padding-top: 32px;
+  color: hsl(229, 31%, 21%);
+  font-weight: 600;
+}
+
+.container-dbox p {
+  font-size: 15px;
+  color: gray;
+  padding-top: 6px;
+  opacity: 0.7;
+  padding-bottom: 38px;
+}
+
+.container-dbox .button-chi {
+  padding-top: 24px;
+  border-radius: 6px;
+}
+
+.container-dbox .button-chi button {
+  width: 232px;
+  height: 48px;
+  font-size: 15px;
+  background-color: hsl(231, 69%, 60%);
+  color: hsl(0, 0%, 97%);
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+
+.container-dbox .button-chi button:hover {
+  background-color: white;
+  color: hsl(231, 69%, 60%);
+  border: 2px solid hsl(231, 69%, 60%);
+}
