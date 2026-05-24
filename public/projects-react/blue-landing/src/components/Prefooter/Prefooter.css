@@ -1,0 +1,162 @@
+/* Prefooter.css */
+.prefooter-container {
+  background-color: hsl(231, 69%, 60%);
+  padding: 4.6rem 1.5rem;
+  color: hsl(0, 0%, 97%);
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.center p {
+  text-transform: uppercase;
+  letter-spacing: 0.35rem;
+  color: hsl(0, 0%, 97%);
+  font-size: 0.76rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.center h4 {
+  color: hsl(0, 0%, 97%);
+  max-width: 440px;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1.9rem;
+  line-height: 1.3;
+}
+
+.input-zone {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.input-wrapper {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.input-relative {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+
+.input-wrapper input {
+  width: 100%;
+  min-height: 48px;
+  padding-left: 18px;
+  padding-right: 40px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  font-size: 1rem;
+  outline: none;
+}
+
+.input-wrapper input::placeholder {
+  color: gray;
+  opacity: 0.5;
+  font-size: 0.94rem;
+}
+
+.has-error input {
+  border: 2px solid hsl(0, 94%, 66%);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  color: hsl(229, 8%, 60%);
+}
+
+.error-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+}
+
+.error-message {
+  background-color: hsl(0, 94%, 66%);
+  color: white;
+  font-size: 0.65rem;
+  font-style: italic;
+  text-align: left;
+  padding: 3px 12px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  letter-spacing: 0.5px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input-zone button {
+  box-sizing: border-box;
+  background-color: hsl(0, 94%, 66%);
+  color: hsl(0, 0%, 97%);
+  padding: 0.86rem 1.5rem;
+  border: 2px solid hsl(0, 94%, 66%);
+  border-radius: 5px;
+  font-size: 0.86rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  height: 48px;
+}
+
+.input-zone button:hover {
+  background-color: white;
+  color: hsl(0, 94%, 66%);
+  border: 2px solid hsl(0, 94%, 66%);
+}
+
+@media (max-width: 768px) {
+  .prefooter-container {
+    padding: 4rem 1.5rem;
+  }
+  .center p {
+    font-size: 12px;
+    margin-bottom: 8px;
+    letter-spacing: 0.3rem;
+  }
+  .center h4 {
+    font-size: 24px;
+  }
+  .input-zone {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .input-wrapper input {
+    width: 100%;
+    min-height: 48px;
+    padding-left: 20px;
+    padding-right: 90px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    font-size: 1rem;
+    outline: none;
+  }
+
+  .input-wrapper {
+    min-width: 100%;
+  }
+
+  .input-wrapper input,
+  .input-zone button {
+    width: 100%;
+  }
+}

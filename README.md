@@ -22,7 +22,9 @@
 
 8. **room furniture design**
 
-9. **Portfolio** (CURRENTLY WORKING IN MY PORTFOLIO... 70% READY, Added 5 Sections, handling ANIMATIONS...)
+9. **Blue Landing Page**
+
+10. **Portfolio** (CURRENTLY WORKING IN MY PORTFOLIO... 70% READY, Added 5 Sections, handling ANIMATIONS...)
 
 ---
 

@@ -1,0 +1,246 @@
+/* Hero.css */
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 56px; */
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 55px 48px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 610px;
+  min-width: 0;
+  flex: 1;
+  flex-shrink: 0;
+  padding-left: 100px;
+  margin-left: 20px;
+}
+
+.hero h1 {
+  line-height: 52px;
+  font-size: 47px;
+  font-weight: 500;
+  color: hsl(229, 31%, 21%);
+  padding-top: 10px;
+  padding-bottom: 24px;
+}
+
+.hero p {
+  padding-bottom: 32px;
+  color: gray;
+  opacity: 0.7;
+  line-height: 28px;
+  font-size: 18px;
+  max-width: 556px;
+}
+
+.hero-image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-shrink: 0;
+  padding-right: 4px;
+}
+/* AFTER STR */
+.hero-image-wrapper::after {
+  content: "";
+  position: absolute;
+  width: 510px;
+  height: 352px;
+  background-color: hsl(231, 69%, 60%);
+  right: -48px;
+  top: 30.6%;
+  border-radius: 150px 0px 0px 168px;
+  z-index: -1;
+}
+/* AFTER END  */
+.hero-image-wrapper img {
+  margin-left: 0;
+  width: 657px;
+  min-width: 657px;
+  flex-shrink: 0;
+  height: auto;
+}
+
+.buttoncitos {
+  display: flex;
+  gap: 16px;
+  padding-bottom: 16px;
+}
+
+.buttoncitos button:nth-child(1) {
+  background-color: hsl(231, 69%, 60%);
+  color: hsl(0, 0%, 97%);
+  border: 2px solid hsl(231, 69%, 60%);
+}
+
+.buttoncitos button:nth-child(1):hover {
+  background-color: white;
+  color: hsl(231, 69%, 60%);
+  border: 2px solid hsl(231, 69%, 60%);
+}
+
+.buttoncitos button:nth-child(2) {
+  background-color: hsl(0, 0%, 97%);
+  color: hsl(229, 31%, 21%);
+  border: 2px solid transparent;
+  opacity: 0.8;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.buttoncitos button:nth-child(2):hover {
+  background-color: white;
+  border: 2px solid hsl(229, 31%, 21%);
+  opacity: 1;
+}
+
+.buttoncitos button {
+  box-sizing: border-box;
+  font-weight: 500;
+  width: 166px;
+  height: 48px;
+  font-size: 14px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  padding-top: 1px;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 1200px) and (min-width: 1025px) {
+  .hero-container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .hero {
+    padding-left: 40px;
+  }
+  /* AFTER STR */
+  .hero-image-wrapper::after {
+    height: 300px;
+    /* left: 90px; */
+    right: -48px;
+    top: 30.6%;
+    border-radius: 150px 0px 0px 168px;
+  }
+  /* AFTER END  */
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .hero-container {
+    padding: 50px 0 50px 50px;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .hero {
+    max-width: 45%;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .hero h1 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  .hero p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .hero-image-wrapper {
+    width: fit-content;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-image-wrapper img {
+    width: 100%;
+    min-width: 0;
+    max-width: 450px;
+    height: auto;
+  }
+
+  /* AFTER STR */
+  .hero-image-wrapper::after {
+    width: 360px;
+    height: 210px;
+    right: -48px;
+    top: 28%;
+    border-radius: 150px 0px 0px 168px;
+  }
+  /* AFTER END  */
+}
+
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column-reverse;
+    padding: 40px 24px 80px 24px;
+    gap: 60px;
+  }
+
+  .hero {
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 30px;
+    line-height: 40px;
+    max-width: 320px;
+  }
+
+  .hero p {
+    font-size: 15px;
+    line-height: 25px;
+    max-width: 280px;
+  }
+
+  .hero-image-wrapper {
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-image-wrapper img {
+    height: auto;
+    width: auto;
+    min-width: 0;
+    max-height: 252px;
+    max-width: 100%;
+    object-fit: contain;
+  }
+
+  /* AFTER STR */
+  .hero-image-wrapper::after {
+    width: 290px;
+    height: 200px;
+    right: -48px;
+    top: 18%;
+    border-radius: 150px 0px 0px 150px;
+  }
+  /* AFTER END  */
+
+  .buttoncitos {
+    justify-content: center;
+  }
+  .buttoncitos button {
+    width: 150px;
+  }
+}

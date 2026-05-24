@@ -1,0 +1,46 @@
+/* Download.css */
+.dbox-big-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 34px;
+  padding-bottom: 94px;
+}
+
+.dbox-big-container > :nth-child(2) {
+  margin-top: 40px;
+}
+
+.dbox-big-container > :nth-child(3) {
+  margin-top: 80px;
+}
+.container-download .part1-container {
+  padding-top: 38px;
+  padding-bottom: 40px;
+}
+.container-download .part1-container p {
+  padding-top: 19px;
+}
+@media (max-width: 768px) {
+  .dbox-big-container {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+  /* a  */
+
+  .dbox-big-container > :nth-child(2) {
+    margin-top: 0px;
+  }
+
+  .dbox-big-container > :nth-child(3) {
+    margin-top: 0px;
+  }
+  .container-download .part1-container {
+    padding-top: 8px;
+    padding-bottom: 0px;
+  }
+  .container-download .part1-container p {
+    padding-top: 0px;
+  }
+}

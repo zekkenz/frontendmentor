@@ -1,0 +1,127 @@
+/* Accor.css */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.accordion-container {
+  max-width: 540px;
+  margin: 0 auto;
+  font-family: "Rubik", sans-serif;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  height: 70px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.accordion-item:first-child .accordion-header {
+  height: 64px;
+}
+
+.accordion-item:nth-child(3) .accordion-header {
+  height: 64px;
+}
+
+.accordion-container .accordion-item:nth-child(4) .accordion-header {
+  height: 64px;
+}
+
+.accordion-header span {
+  font-size: 1.15rem;
+  color: hsl(229, 31%, 21%);
+  margin-top: 3px;
+  line-height: 1;
+  padding-top: 2px;
+  transition: color 0.3s ease;
+}
+
+.accordion-header:hover span {
+  color: hsl(0, 94%, 66%);
+}
+
+.arrow {
+  transition: transform 0.4s ease;
+  padding-right: 22px;
+}
+
+.arrow svg path {
+  transition: stroke 0.3s ease;
+}
+
+.arrow.open {
+  transform: rotateX(180deg);
+}
+
+.arrow.open svg path {
+  stroke: #fa5959;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition:
+    max-height 0.3s ease,
+    padding 0.3s ease;
+  color: #9194a2;
+  line-height: 1.8;
+  padding: 0;
+}
+
+.accordion-content p {
+  margin: 0;
+  padding-top: 0.5rem;
+}
+
+.accordion-content.active {
+  max-height: 200px;
+  padding-bottom: 1.5rem;
+}
+
+.info-btn {
+  box-sizing: border-box;
+  display: block;
+  margin: 3.36rem auto;
+  width: 116px;
+  height: 48px;
+  font-size: 14px;
+  background-color: #5267df;
+  color: hsl(0, 0%, 97%);
+  border: 2px solid #5267df;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.info-btn:hover {
+  background-color: white;
+  color: #5267df;
+  border: 2px solid #5267df;
+}
+
+@media (max-width: 768px) {
+  .accordion-container {
+    width: 100%;
+    padding: 0 32px;
+  }
+  .accordion-header span {
+    font-size: 15px;
+  }
+  .info-btn {
+    margin: 3rem auto 3.36rem auto;
+  }
+  .arrow {
+    padding-right: 0;
+  }
+}

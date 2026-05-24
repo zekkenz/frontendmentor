@@ -80,6 +80,12 @@ function App() {
           <div className="projects-scroll">
             <ul>
               <li>
+                <a href="./projects/blue-landing/blue-landing.html">
+                  <span className="gthan">&gt;</span> Landing Page
+                </a>
+              </li>
+              <hr />
+              <li>
                 <a href="./projects/room-furniture/room-furniture.html">
                   <span className="gthan">&gt;</span> room furniture
                 </a>
