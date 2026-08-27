@@ -24,7 +24,9 @@
 
 9. **Blue Landing Page**
 
-10. **Portfolio** (CURRENTLY WORKING IN MY PORTFOLIO... 70% READY, Added 5 Sections, handling ANIMATIONS...)
+10. **Multi-step form PREPARING**
+
+11. **Portfolio** (CURRENTLY WORKING IN MY PORTFOLIO... 74% READY, Added 5 Sections, handling ANIMATIONS...)
 
 ---
 
